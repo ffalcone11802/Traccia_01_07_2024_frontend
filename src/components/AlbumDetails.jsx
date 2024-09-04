@@ -11,7 +11,7 @@ export default function AlbumDetails({updateItem}) {
   }
 
   useEffect(() => {
-    fetch("https://1436c56d-79df-4bf2-9318-7760bdc85522-00-1lwrllm2sopup.janeway.replit.dev/api/collections/"+id, {
+    fetch("https://APP_DOMAIN/api/collections/"+id, {
       method: "get",
       headers: new Headers({
         "Content-Type": "application/json"
