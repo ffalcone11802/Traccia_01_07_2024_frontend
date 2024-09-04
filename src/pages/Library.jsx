@@ -12,7 +12,7 @@ export default function Library() {
   }
 
   useEffect(() => {
-    fetch("https://1436c56d-79df-4bf2-9318-7760bdc85522-00-1lwrllm2sopup.janeway.replit.dev/api/collections", {
+    fetch("https://APP_DOMAIN/api/collections", {
       method: "get",
       headers: new Headers({
         "Content-Type": "application/json"
