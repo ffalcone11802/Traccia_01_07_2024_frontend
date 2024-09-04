@@ -6,7 +6,7 @@ export default function Home() {
   const [recommendations, setRecommendations] = useState(null)
 
   useEffect(() => {
-    fetch("https://1436c56d-79df-4bf2-9318-7760bdc85522-00-1lwrllm2sopup.janeway.replit.dev/api/recommendations", {
+    fetch("https://APP_DOMAIN/api/recommendations", {
       method: "get",
       headers: new Headers({
         "Content-Type": "application/json"
